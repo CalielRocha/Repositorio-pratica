@@ -1,0 +1,105 @@
+:root {
+    --color-white: #f3f3f3;
+    --cor-background: blueviolet;
+    --cor-form: rgb(80, 41, 117);
+    --color-darkblue: #1b1b32;
+    --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+}
+
+body {
+    background-color: var(--color-darkblue);
+}
+
+.container__apresentacao {
+    text-align: center;
+    margin: 50px;
+}
+
+.container__titulo {
+    font-size: 32px;
+    color: var(--color-white);
+}
+
+.texto__container {
+    font-size: 18px;
+    color: var(--color-white);
+    margin: 1em 0;
+}
+
+.formulario__container {
+    
+    background-color: var(--cor-background);
+    margin: 180px;
+    height: 100%;
+    padding: 40px;   
+}
+
+
+.dados__pessoais {
+    font-size: 18px;
+    color: var(--color-white);
+    margin: 25px;
+}
+
+.texto__placeholder{
+    width: 95%;
+    height: 2.375rem;
+    padding: 0.345rem 0.60rem;
+    margin: 2em;
+}
+
+.texto__padrao {
+    font-size: 18px;
+    color: var(--color-white);
+    margin: 0 18px;
+}
+
+.secao__opcao {
+    width: 98%;
+    height: 2.375rem;
+    padding: 0.345rem 0.60rem;
+    margin: 2em;
+}
+
+
+.decisao {
+    display: block;
+
+}
+
+.input__radio{
+    margin-right: 2em;
+    margin-top: 12px;
+    height: 2em;
+}
+
+.espacado {
+    margin: 2em;
+}
+
+.container__aplicacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+
+.aplicacoes{
+    gap: 1em;
+}
+
+.textarea {
+    width: 95%;
+    height: 120px;
+}
+    
+.botao__enviar {
+    display: block;
+    margin-top: 22px;
+    text-align: center;
+    height: 40px;
+    width: 96%;
+    background-color: #161631;
+    color: var(--color-white);
+}
+

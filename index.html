@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <div class="container__apresentacao">
+        <h1 class="container__titulo">Exemplo de Formulário</h1>
+        <p class="texto__container">Texto de exemplo de formulário</p>
+    </div>
+
+    <form class="formulario__container">
+        <label for="nome"  class="dados__pessoais">Nome</label>
+        <input type="text" for="nome" placeholder="Digite seu nome" class="texto__placeholder" required>
+
+        <label for="email" class="dados__pessoais">Email</label>
+        <input type="text" for="email" placeholder="Digite seu Email" class="texto__placeholder" required>
+
+        <label for="idade" class="dados__pessoais">Idade(opcional)</label>
+        <input type="text" form="idade" placeholder="Digite sua idade" class="texto__placeholder">
+
+        <p class="texto__padrao">Texto de exemplo de escolha de opções</p>
+        <select class="secao__opcao">
+            <option disabled selected value>Escolha uma opção</option>
+            <option value="opcao1">opção 1</option>
+            <option value="opcao2">opção 2</option>
+            <option value="opcao3">opção 3</option>
+            <option value="opcao4">opção 4</option>
+        </select>
+
+        <p class="texto__padrao">Você recomendaria esse formulário para alguém?</p>
+
+        <label for="sim" class="decisao texto__padrao"><input type="radio" name="decisao" value="sim" class="input__radio">Sim</label>
+
+        <label for="naotenhocerteza" class="decisao texto__padrao"><input type="radio" name="decisao" value="naotenhocerteza" class="input__radio">Não tenho certeza</label>
+
+        <label for="nao" class="decisao texto__padrao"><input type="radio" name="decisao" value="nao" class="input__radio">Não</label>
+
+        <p class="texto__padrao espacado">Oque você gostaria que fosse melhor?</p>
+
+        <fieldset class="container__aplicacoes">
+
+            <label class="texto__padrao aplicacoes"><input type="checkbox">Front-end Projects</label>
+
+            <label class="texto__padrao aplicacoes"><input type="checkbox">Back-end Projects</label>
+
+            <label class="texto__padrao aplicacoes"><input type="checkbox">Data Visualization</label>
+
+            <label class="texto__padrao aplicacoes"><input type="checkbox">Challenges</label>
+
+            <label class="texto__padrao aplicacoes"><input type="checkbox">Open Source Community</label>
+
+            <label class="texto__padrao aplicacoes"><input type="checkbox">Gitter help rooms</label>
+
+            <label class="texto__padrao aplicacoes"><input type="checkbox">Videos</label>
+
+            <label class="texto__padrao aplicacoes"><input type="checkbox">City Meetups</label>
+
+            <label class="texto__padrao aplicacoes"><input type="checkbox">Wiki</label>
+
+            <label class="texto__padrao aplicacoes"><input type="checkbox">Forum</label>
+
+            <label class="texto__padrao aplicacoes"><input type="checkbox">Additional Courses</label>
+
+        </fieldset>
+        
+        <p class="texto__padrao espacado">Algum comentario ou sugestão?</p>
+        <textarea placeholder="Coloque seu comentario" class="textarea"></textarea>
+
+        <button type="submit" value="Enviar" class="botao__enviar">Enviar</button>
+    </form>
+</body>
+</html>
